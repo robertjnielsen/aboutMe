@@ -1,3 +1,4 @@
+'use strict';
 alert('Welcome to my About Me page!');
 var firstName = prompt('First, please let me know your first name.');
 var score = 0;
