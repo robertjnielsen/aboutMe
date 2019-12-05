@@ -12,3 +12,5 @@ This About Me page is an ongoing lab assignment for Code Fellows' 201 class.
 This repo / project falls under the [GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
 Any questions about the project can be directed to the me at [my email](mailto:robert.j.nielsen@outlook.com).
+
+Day 04 - Navigator: Robert / Driver: Patrick
