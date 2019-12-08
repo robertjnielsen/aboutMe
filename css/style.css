@@ -1,3 +1,17 @@
+/*************************/
+/* Variable Declarations */
+/*************************/
+
+:root {
+  --colorBlue: rgb(60, 120, 140);
+  --colorGrey: rgb(57, 57, 57);
+  --colorOffWhite: rgb(214, 214, 214);
+}
+
+/******************/
+/* Global Styling */
+/******************/
+
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +19,15 @@
 }
 
 body {
-  background-color: #393939;
+  background-color: var(--colorGrey);
   text-align: center;
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  overflow-x: hidden;
   font-size: 1.2rem;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #fff;
   text-shadow: #000 0.2rem 0.2rem 0.2rem;
@@ -35,14 +49,73 @@ h3 {
 }
 
 p {
-  color: #d6d6d6;
-  width: 80%;
+  color: var(--colorOffWhite);
   margin: auto;
   padding: 0.5rem;
 }
 
+hr {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  border: var(--colorBlue) 0.05rem solid;
+}
+
+a {
+  text-decoration: none;
+  color: var(--colorBlue);
+}
+
+a:hover {
+  font-style: italic;
+}
+
+/**************************/
+/* Header Section Styling */
+/**************************/
+
+header {
+  padding-bottom: 1.4rem;
+}
+
+/****************************/
+/* About Me Section Styling */
+/****************************/
+
+.aboutMe {
+  width: 80%;
+  margin: auto;
+}
+
+.hardEmphasis {
+  font-style: italic;
+  font-weight: bold;
+  color: var(--colorBlue);
+}
+
+/***************************/
+/* My Goal Section Styling */
+/***************************/
+
+.myGoal {
+  padding-top: 1rem;
+}
+
+/*********************************/
+/* My Experience Section Styling */
+/*********************************/
+
+.experience {
+  width: 66%;
+  margin: auto;
+}
+
+/****************/
+/* List Styling */
+/****************/
+
 li {
-  color: #d6d6d6;
+  color: var(--colorOffWhite);
   padding: 0.25rem;
   list-style-position: inside;
 }
@@ -59,6 +132,10 @@ ol {
   width: 50%;
   margin: auto;
 }
+
+/******************/
+/* Footer Styling */
+/******************/
 
 footer {
   color: #d6d6d6;
